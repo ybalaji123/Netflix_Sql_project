@@ -13,12 +13,11 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 4) Explore and categorize content based on specific criteria and keywords.
 
 # Dataset
-The data for this project is sourced from the Kaggle dataset:
-# Dataset: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
+The data for this project is sourced from the Kaggle dataset
+- **Dataset:**[DataSet](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 # Schema
-'''sql
-
+```sql
 CREATE TABLE datanetflix
 (
     show_id      VARCHAR(5),
@@ -34,4 +33,39 @@ CREATE TABLE datanetflix
     listed_in    VARCHAR(250),
     description  VARCHAR(550)
 );
-'''
+```
+# Business Problems and Solutions
+
+# 1. Count the Number of Movies vs TV Shows
+```sql
+select 
+	type,
+	count(*) as total_count
+from datanetflix
+group by type
+```
+
+# 2. Find the Most Common Rating for Movies and TV Shows
+```sql
+WITH RatingCounts AS (
+    SELECT 
+        type,
+        rating,
+        COUNT(*) AS rating_count
+    FROM datanetflix
+    GROUP BY type, rating
+),
+RankedRatings AS (
+    SELECT 
+        type,
+        rating,
+        rating_count,
+        RANK() OVER (PARTITION BY type ORDER BY rating_count DESC) AS rank
+    FROM RatingCounts
+)
+SELECT 
+    type,
+    rating AS most_frequent_rating
+FROM RankedRatings
+WHERE rank = 1;
+```
