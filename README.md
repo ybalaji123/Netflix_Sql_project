@@ -6,7 +6,7 @@
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions. Used SSMS(SQL Server management Studio) 
 
 # Process of Installing
-The Below is help to install the SSMS(SQL Server management Studio)
+To install the SQL Server Management Studio (SSMS), click the link below.
 - **Install Link:** [youtube link](https://youtu.be/iaUXjTL_F9U?si=d7W8YSLWPdoSDOK0)
   
 # Objective
