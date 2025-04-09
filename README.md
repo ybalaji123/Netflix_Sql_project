@@ -7,7 +7,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 
 # Process of Installing
 The Below is help to install the SSMS(SQL Server management Studio)
-- **InstallLink**[youtube](https://youtu.be/iaUXjTL_F9U?si=d7W8YSLWPdoSDOK0)
+- **Install Link:** [youtube link](https://youtu.be/iaUXjTL_F9U?si=d7W8YSLWPdoSDOK0)
   
 # Objective
 1) Analyze the distribution of content types (movies vs TV shows).
@@ -17,7 +17,7 @@ The Below is help to install the SSMS(SQL Server management Studio)
 
 # Dataset
 The data for this project is sourced from the Kaggle dataset
-- **Dataset:**[DataSet](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- **Dataset Link:** [DataSet](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 # Schema
 ```sql
