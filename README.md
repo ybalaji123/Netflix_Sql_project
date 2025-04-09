@@ -10,7 +10,7 @@ The Below is help to install the SSMS(SQL Server management Studio)
 - **Install Link:** [youtube link](https://youtu.be/iaUXjTL_F9U?si=d7W8YSLWPdoSDOK0)
   
 # Objective
-1) Analyze the distribution of content types (movies vs TV shows).
+-** Analyze the distribution of content types (movies vs TV shows).**
 2) Identify the most common ratings for movies and TV shows.
 3) List and analyze content based on release years, countries, and durations.
 4) Explore and categorize content based on specific criteria and keywords.
