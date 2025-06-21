@@ -1,9 +1,9 @@
-# Netflix Movies and TV Shows Data Analysis using SQL(SSMS) & Excel dashboard 
+ji# Netflix Movies and TV Shows Data Analysis using SQL(SSMS) & Excel dashboard 
 
 ![Netflix Logo](https://github.com/ybalaji123/Netflix_Sql_project/blob/main/Netflix_Logo1.png)
 
 # Overview
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions. Used SSMS(SQL Server management Studio) 
+This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL & Excel. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions. Used SSMS(SQL Server management Studio) and Excel 
 
 # Process of Installing
 Click the following link to download and install SQL Server Management Studio (SSMS). 
@@ -228,5 +228,5 @@ Common Ratings: Insights into the most common ratings provide an understanding o
 **Content Categorization:** Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
-# Author - Zero Analyst
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+# Author - yeminenibalaji092@gmail.com
+This project is part of my portfolio, showcasing the SQL & Excel skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
