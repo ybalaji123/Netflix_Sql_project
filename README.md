@@ -199,6 +199,28 @@ group by CategorieContent
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 # Dashboard
 ![netflix dashboard](https://github.com/ybalaji123/Netflix_Sql_project/blob/main/Screenshot%202025-06-21%20120559.png)
+
+# Dashboard Explanation
+
+An interactive Excel dashboard that analyzes Netflix content data from 1925 to 2021.
+
+## Key Highlights
+- **Total Titles:** 8807  
+- **Movies:** 6131 | **TV Shows:** 2676  
+- **Countries Covered:** 749  
+- **Genres:** 42  
+- **Longest Duration:** 312 min  
+- **Avg. Content %:** 34.25%  
+
+## Visuals Included
+- Content type breakdown (Movie vs TV Show)  
+- Top producing countries  
+- Genre distribution (e.g., Drama, Comedy, Kids' TV)  
+- Yearly trend of content added  
+- Filters for type & date  
+
+## Tools Used
+SQL | Excel | 
 # Findings and Conclusion
 **Content Distribution:** The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
 Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
